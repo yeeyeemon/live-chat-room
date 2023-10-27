@@ -1,5 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore'; // Add other Firebase services as needed
+import 'firebase/auth';
 import { isNavigationFailure } from 'vue-router';
 const firebaseConfig = {
     apiKey: "AIzaSyDqUAP8gX3wqnHjC1QxmaH7XvhcXq11xWs",
